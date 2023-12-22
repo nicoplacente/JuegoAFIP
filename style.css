@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    background-color: #111;
+    font-family: sans-serif;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+canvas {
+    border-bottom: 1px solid #171717;
+    background: linear-gradient(#0009, #0009), url('https://img.freepik.com/vector-gratis/escena-hermoso-paisaje-urbano-edificio-alto-tienda-calle-parque_1150-48972.jpg');
+    background-size: cover;
+    background-position-y: bottom;
+}
+
+.modalContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    background-color: #e3e3e3;
+    color: #171717;
+    padding: 50px 33px;
+    outline: 2px solid #92f;
+    box-shadow: 1px 1px 10px #0009;
+    border-radius: 12px;
+    transform: scale(1.3);
+    display: none;
+}
+
+.botonContainer {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+#startButton {
+    color: #f1f1f1;
+    background-color: #92f;
+    padding: 12px 20px;
+    border-radius: 12px;
+    border: none;
+    font-size: 20px;
+    transition: all .5s;
+}
+
+#startButton:hover {
+    outline: 2px solid #92f;
+    background-color: #f1f1f1;
+    color: #171717;
+}
+
+.songsContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.selectSong {
+    border: none;
+    background-color: #92f;
+    color: #f1f1f1;
+    padding: 12px 20px;
+    border-radius: 12px;
+}
+
+.selectSong:focus {
+    background-color: #f1f1f1;
+    color: #171717;
+}
+
+.playerImg {
+    filter: brightness(150%)!important;
+}
+
+h1,p {
+    text-align: center;
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    background-color: #92f;
+    color: #f1f1f1;
+    padding: 20px;
+    width: 700px;
+    margin: 20px auto;
+    border-radius: 12px;
+}
+
+.selectorCanciones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: fit-content;
+    height: 100px;
+    user-select: none;
+}
+
+.selectorCanciones .button {
+    border: none;
+    background-color: #92f;
+    color: #fff;
+    padding: 20px 33px;
+    margin: 12px;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: transform .5s , background-color .5s , color .5s;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 1px 1px 10px #17171733;
+}
+
+.selectorCanciones .button:hover {
+    transform: scale(.9);
+    background-color: #92fa;
+}
+
+.selectorCanciones .activeSong {
+    border: none;
+    background-color: #92f;
+    color: #fff;
+    padding: 20px 33px;
+    margin: 12px;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: transform .5s , background-color .5s , color .5s;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 1px 1px 10px #17171733;
+    transform: scale(1.1);
+    background-color: #f3f3f3;
+    color: #171717;
+    outline: 2px solid #92fa;
+}
+
+
+
+option {
+    display: none;
+}
+
+span {
+    margin: 0 12px;
+}
+
+h2 {
+    text-align: center ;
+}
+
+.h4 {
+    text-align: center;
+}
+
+.nivelActual p {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: monospace;
+}
+
+
+
